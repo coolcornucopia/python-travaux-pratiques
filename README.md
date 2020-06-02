@@ -28,7 +28,7 @@ Le but de ces travaux pratiques ("TP") est que l'enfant (ou l'adulte) apprenne *
 
 # Notes pour l'encadrant/parent/enseignant
 Pour le moment, il y a les travaux pratiques suivants:
-* tp1:
+* tp1: Les bases de la programmation (afficher un message, les listes, les boucles, les conditions...).
 
 Note: les informations suivantes fonctionnent sous Linux ET sous Windows, tout comme le TP lui-même :-)
 
@@ -54,17 +54,19 @@ Pour une utilisation **hors ligne**, il est possible de générer un fichier htm
 
 La syntaxe [markdown de github](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax) est utilisée.
 
-Pour la conversion en pdf ou en html, j'utilise l'éditeur [atom.io](https://atom.io/) avec le package [markdown-preview-enhanced](https://atom.io/packages/markdown-preview-enhanced) dont la procédure d'installation se trouve [ici](https://shd101wyy.github.io/markdown-preview-enhanced/#/installation).
+Pour la conversion en pdf ou en html, j'utilise l'éditeur [atom.io](https://atom.io/) avec le package [markdown-preview-enhanced](https://atom.io/packages/markdown-preview-enhanced) dont la procédure d'installation se trouve [ici](https://shd101wyy.github.io/markdown-preview-enhanced/#/installation).Il est aussi possible d'utiliser l'éditeur [Visual Studio Code](https://code.visualstudio.com/) avec le même package [markdown-preview-enhanced](https://atom.io/packages/markdown-preview-enhanced).
+
+> :warning: Je m'efforce de générer un fichier html à chaque mise à jour des travaux pratiques afin de vous éviter d'avoir à le regénérer par vous même :-).
 
 Comme l'éditeur IDLE utilise un thème "Dark", je souhaitais que le fichier html soit lui aussi avec le thème Dark de github, pour cela, dans atom, menu "preferences", Packages,  markdown-preview-enhanced, Settings et mettre le "Preview Theme" à "github-dark.css" + cocher "Print Background".
 
 Ce package contient une aide sur la syntaxe markdown très complète [ici](https://shd101wyy.github.io/markdown-preview-enhanced/#/markdown-basics) ainsi que le support de nombreux graphiques (ditaa, Graphviz, PlantUML) et formats de sortie (pdf, html, ebook, png...).
 
-Note: le résultat des émoticons est plus joli avec Chrome qu'avec Firefox mais c'est discutable :-)
+Note: Le résultat des émoticons est plus joli avec le navigateur Chrome qu'avec Firefox mais c'est discutable :-)
 
 > :warning: Avant la génération finale, ne pas oublier de générer le sommaire en haut du document.
 
-## dark mode ou light Module
+## Dark mode ou light mode?
 Je préfère le dark mode comme décrit ci-dessus mais on peut aussi faire du light mode en suivant 'à l'inverse' la description des 2 paragraphes ci-dessus.
 Note: Il n'y a pas vraiment d'avantages ni de désavantages entre les deux, cf l'article suivant https://www.nngroup.com/articles/dark-mode/
 
@@ -75,10 +77,17 @@ Si vous le souhaitez, vous pouvez imprimer les cheat sheets Python et les donner
   * Cheatsheet pour le langage Python: [lien direct vers le pdf](https://perso.limsi.fr/pointal/_media/python:cours:mementopython3.pdf) ou le lien vers la [page du site](https://perso.limsi.fr/pointal/python:memento).
   * Cheatsheet pour le langage Python **Tortue**: [lien direct vers le pdf](https://perso.limsi.fr/pointal/_media/python:turtle:turtleref.pdf) ou le lien vers la [page du site](https://perso.limsi.fr/pointal/python:turtle:accueil).
 
-## personnaliser les travaux pratiques
+## Personnaliser les travaux pratiques
 Je trouve cela sympa de **personnaliser les travaux pratiques**, pour cela:
 * Remplacer le prénom "Ethan/ethan" par celui de l'élève (attention aux majuscules/minuscules).
 * Remplacer le prénom "Anna/anna" par celui de la sœur ou du frère de l'élève (attention aux majuscules/minuscules), adapter au mieux à la fratrie...
 * Remplacer la date d'anniversaire `anniv = date(2009, 11, 13)` par celle de l'élève.
 * Remplacer le sport `a['sport'] = 'gym'`, l'instrument de musique `a['instrument'] = 'saxophone'`...
 * Ajouter des ascii arts qui plaisent à l'élève...
+
+## Des commentaires, des remarques, des questions?
+N'hésitez pas à me contacter à l'adresse coolcornucopia@outlook.com.
+
+--
+**Peace :smile:
+coolcornucopia**

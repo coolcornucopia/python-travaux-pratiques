@@ -85,6 +85,28 @@ Je trouve cela sympa de **personnaliser les travaux pratiques**, pour cela:
 * Remplacer le sport `a['sport'] = 'gym'`, l'instrument de musique `a['instrument'] = 'saxophone'`...
 * Ajouter des ascii arts qui plaisent à l'élève...
 
+Voici ci-dessous des commandes pour rapidement personnaliser le document markdown ou html:
+``` bash
+export DOC=tp1/"Travaux pratiques sur Python - Première partie.md"
+#export DOC=tp1/"Travaux pratiques sur Python - Première partie.html"
+
+# N'oubliez pas d'ajuster les commandes avant de les exécuter ;-)
+# Sans majuscule ni accent pour les variables (var)
+# Avec majuscules et accents pour le texte    (txt)
+sed -i 's/ethan/prenom/g' "$DOC" # Prénom de l'élève (var)
+sed -i 's/Ethan/Prénom/g' "$DOC" # Prénom de l'élève (txt)
+
+sed -i 's/soeur/frere/g'  "$DOC"  # Frère ou soeur de l'élève (var), si besoin
+
+sed -i 's/anna/prenom2/g' "$DOC" # Prénom de la soeur ou du frère (var)
+sed -i 's/Anna/Prénom2/g' "$DOC" # Prénom de la soeur ou du frère (txt)
+
+sed -i 's/date(2009, 11, 13)/date(annee, mois, jour)/g' "$DOC"
+
+sed -i 's/gym/sport/g'    "$DOC"    # Sport de l'élève (var)
+sed -i "s/'saxophone'/'instrument'/g" "$DOC" # instrument de l'élève (var)
+```
+
 ## Des commentaires, des remarques, des questions?
 N'hésitez pas à me contacter à l'adresse coolcornucopia@outlook.com.
 

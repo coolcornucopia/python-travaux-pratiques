@@ -40,7 +40,12 @@ Pour la durée, la aussi c'est très variable, je préfère que l'enfant prenne 
 ## Configurer l'éditeur
 Le choix de l'éditeur est ici celui par défaut dans Python soit "IDLE" car je n'ai rien trouvé de plus simple.
 * L'installation sous windows contient IDLE par défaut.
-* Sous linux, il faut faire ```sudo apt-get install idle-python```
+* Sous linux, il faut faire:
+```
+$ python3 --version                    # Pour récupérer la version de Python3
+Python 3.6.9
+$ sudo apt-get install idle-python3.6  # Utiliser la version Python3.x obtenue ci-dessus
+```
 
 Configuration (menu Options/Configure IDLE):
 * Police de caractères de taille 12 (je préfère que ça soit bien lisible)
